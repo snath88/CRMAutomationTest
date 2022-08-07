@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCRM Application Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.qa.util.AnnotationTransformer"/>
+    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="FreeCRM Application Test Automation Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.BaseUrlTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="BaseUrlTittletest"/>
+          <include name="BaseUrlPageLogoTest"/>
+          <include name="clickLoginTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.BaseUrlTest -->
+    </classes>
+  </test> <!-- FreeCRM Application Test Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [FreeCRM Application Test Automation Suite] -->
